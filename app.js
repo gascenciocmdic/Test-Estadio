@@ -4,88 +4,88 @@ const videosData = [
     id: "gjmhL3yfEJE",
     label: "Video 1",
     questions: [
-      "¿Qué objeto distrae a los personajes en el video e impide que se comuniquen en la vida real?",
-      "¿Qué consecuencia negativa del uso excesivo de pantallas lograste observar?"
+      "¿Cuál es la principal enseñanza sobre el uso de celulares y pantallas que nos deja este video?",
+      "¿Qué reflexión te genera este video respecto al valor de la comunicación cara a cara en la vida real?"
     ]
   },
   {
     id: "Wp2a4G81P68",
     label: "Video 2",
     questions: [
-      "¿Frente a qué objeto se mira la protagonista para observar y juzgar su cuerpo y apariencia?",
-      "¿Cuál es la lección del video sobre la autoestima y cómo nos vemos a nosotros mismos?"
+      "¿Qué nos enseña este video sobre la forma en que juzgamos nuestra propia apariencia física?",
+      "¿Cuál es la lección principal respecto a la autoestima y el amor propio que se transmite en esta historia?"
     ]
   },
   {
     id: "m6jfZa00vkY",
     label: "Video 3",
     questions: [
-      "¿Qué situación difícil o sentimiento de exclusión experimenta la protagonista?",
-      "¿Qué emoción transmite el rostro de la protagonista ante el rechazo de los demás?"
+      "¿Qué enseñanza nos deja el video sobre las consecuencias emocionales de excluir a los demás?",
+      "¿Cómo nos invita este video a actuar frente a las personas que se sienten solas o rechazadas?"
     ]
   },
   {
     id: "6mr-9CEe7zU",
     label: "Video 4",
     questions: [
-      "¿Qué alimento genera el conflicto y enojo de la anciana hacia el joven en la estación?",
-      "Al final del video, ¿quién era el verdadero dueño de las galletas y qué nos enseña sobre juzgar a los demás?"
+      "¿Qué valiosa lección nos enseña este video sobre juzgar las acciones de las personas sin conocer toda la verdad?",
+      "¿Cómo cambia nuestra perspectiva sobre el conflicto al darnos cuenta de quién era el verdadero dueño de las galletas?"
     ]
   },
   {
     id: "UqnXZjrG-d8",
     label: "Video 5",
     questions: [
-      "¿Cómo está representado físicamente el personaje de 'la ansiedad' en este video animado?",
-      "Menciona una situación en la que la ansiedad hace que el protagonista se preocupe demasiado."
+      "¿Qué conocimientos importantes adquiriste sobre la manera en que se manifiesta físicamente el personaje de la ansiedad?",
+      "¿Qué aprendiste en este video sobre cómo la ansiedad afecta los pensamientos y la tranquilidad de una persona?"
     ]
   },
   {
     id: "Eb7QHKhdJF4",
     label: "Video 6",
     questions: [
-      "De acuerdo con el video, ¿es la ansiedad una emoción normal que todos los adolescentes sienten a veces?",
-      "¿Qué recomendación o consejo se da para manejar la ansiedad cuando se vuelve muy difícil de controlar?"
+      "¿Qué conocimientos clave obtuviste sobre si la ansiedad es una emoción común o anormal en los adolescentes?",
+      "¿Cuáles son las estrategias o recomendaciones más importantes que se explican para manejar y controlar la ansiedad?"
     ]
   },
   {
     id: "2nOW8NtM858",
     label: "Video 7",
     questions: [
-      "¿Con qué tipo de energía o invento está más relacionado el trabajo científico de Nikola Tesla?",
-      "¿Quién fue el famoso inventor y rival con el que Tesla tuvo la famosa 'Guerra de las Corrientes'?"
+      "¿Qué conocimientos científicos importantes adquiriste sobre el trabajo de Nikola Tesla y sus inventos?",
+      "¿Qué datos relevantes aprendiste sobre la rivalidad y la diferencia entre la corriente alterna de Tesla y la corriente continua de Edison?"
     ]
   },
   {
     id: "sQrAH8jAKWw",
     label: "Video 8",
     questions: [
-      "¿Qué planeta u objeto celeste propuso Copérnico que está en el centro de nuestro sistema solar?",
-      "¿Cómo se llama la teoría astronómica que sitúa al Sol en el centro, en oposición a la teoría geocéntrica?"
+      "¿Qué conocimientos astronómicos fundamentales sobre la teoría heliocéntrica de Copérnico se explican en el video?",
+      "¿Qué aprendiste sobre el cambio que significó situar al Sol en el centro del sistema solar en lugar de la Tierra?"
     ]
   },
   {
     id: "FLLQXs_tM0w",
     label: "Video 9",
     questions: [
-      "¿Qué famoso fruto cayó del árbol y ayudó a Newton a formular la ley de la gravedad?",
-      "¿Qué fuerza de atracción descubrió Isaac Newton que explica por qué las cosas caen al suelo y los planetas orbitan?"
+      "¿Qué leyes o principios científicos fundamentales formulados por Isaac Newton lograste comprender a través del video?",
+      "¿Qué conocimientos importantes adquiriste sobre cómo actúa la fuerza de gravedad en la Tierra y en el universo?"
     ]
   },
   {
     id: "BiIw9R1sq9s",
     label: "Video 10",
     questions: [
-      "¿Cuáles son los dos órganos en forma de frijol que se encargan de filtrar la sangre y producir la orina?",
-      "¿Qué órgano con forma de bolsa almacena la orina antes de ser expulsada del cuerpo?"
+      "¿Qué conocimientos adquiriste sobre la función de filtración de la sangre que realizan los riñones?",
+      "¿Qué aprendiste sobre el almacenamiento y la eliminación de desechos por medio del sistema urinario?"
     ]
   },
   {
     id: "tdDg1uSKyns",
     label: "Video 11",
     questions: [
-      "¿Qué gas absorben las plantas del aire para realizar la fotosíntesis y cuál liberan después?",
-      "¿Qué sustancia verde tienen las plantas en sus hojas para absorber la luz del sol?"
+      "¿Qué conocimientos clave adquiriste sobre los elementos necesarios (gases, agua, luz) para que ocurra la fotosíntesis?",
+      "¿Qué aprendiste sobre la clorofila y su importancia en la producción de oxígeno y alimento de las plantas?"
     ]
   }
 ];
