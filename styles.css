@@ -675,3 +675,125 @@ body {
         opacity: .5;
     }
 }
+
+/* Results & Ticket Styling */
+.ticket-download-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 16px;
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.ticket-image {
+    width: 100%;
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: var(--radius-sm);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid var(--color-gold);
+}
+
+.fail-icon-container {
+    width: 88px;
+    height: 88px;
+    background: radial-gradient(circle, rgba(227,6,19,0.2) 0%, rgba(227,6,19,0) 70%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px auto 20px auto;
+}
+
+.red-icon {
+    color: var(--color-red);
+    width: 48px;
+    height: 48px;
+}
+
+.text-success {
+    color: #25d366 !important;
+}
+
+.text-fail {
+    color: var(--color-red) !important;
+}
+
+.incorrect-list-container {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    max-height: 350px;
+}
+
+.incorrect-list-container h3 {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--color-gold);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+
+.incorrect-scroll-area {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-right: 4px;
+    flex: 1;
+}
+
+/* Scrollbar for incorrect scroll area */
+.incorrect-scroll-area::-webkit-scrollbar {
+    width: 5px;
+}
+.incorrect-scroll-area::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.01);
+}
+.incorrect-scroll-area::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.incorrect-item {
+    background-color: rgba(227, 6, 19, 0.05);
+    border: 1px solid rgba(227, 6, 19, 0.15);
+    border-radius: var(--radius-sm);
+    padding: 12px;
+}
+
+.incorrect-section {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #ff4d55;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.incorrect-question {
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+    line-height: 1.4;
+}
+
+.incorrect-answer {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+}
+
+.incorrect-answer span {
+    color: #ff4d55;
+    font-style: italic;
+}

@@ -188,47 +188,8 @@
             </section>
 
             <!-- Screen 6: Finish -->
-            <section id="screen-finish" class="screen">
-                <div class="welcome-card text-center">
-                    <div class="success-icon-container animate-pulse">
-                        <i data-lucide="party-popper" class="gold-icon large-icon"></i>
-                    </div>
-                    
-                    <h1 class="finish-title">¡Test Completado!</h1>
-                    <p class="finish-desc" id="finish-user-msg">Felicidades, has respondido todas las preguntas de los videos y de la lectura.</p>
-                    
-                    <div class="action-steps-container">
-                        <h3 class="steps-title">Instrucciones para enviar:</h3>
-                        <div class="step-item">
-                            <span class="step-num">1</span>
-                            <p>Presiona el botón <strong>"Descargar Respuestas"</strong> para guardar tu reporte en formato PDF.</p>
-                        </div>
-                        <div class="step-item">
-                            <span class="step-num">2</span>
-                            <p>Presiona el botón <strong>"Compartir en WhatsApp"</strong> para abrir el chat del organizador.</p>
-                        </div>
-                        <div class="step-item">
-                            <span class="step-num">3</span>
-                            <p>Pega el mensaje automático y <strong>adjunta el PDF</strong> que acabas de descargar de tu carpeta de descargas.</p>
-                        </div>
-                    </div>
-
-                    <div class="finish-buttons">
-                        <button id="btn-download-pdf" class="btn btn-primary btn-block">
-                            <i data-lucide="file-down"></i>
-                            <span>DESCARGAR RESPUESTAS (PDF)</span>
-                        </button>
-                        
-                        <button id="btn-share-whatsapp" class="btn btn-whatsapp btn-block">
-                            <i data-lucide="message-square"></i>
-                            <span>COMPARTIR POR WHATSAPP</span>
-                        </button>
-                    </div>
-
-                    <button id="btn-restart" class="btn-restart-link">
-                        <i data-lucide="refresh-cw"></i> Volver a empezar
-                    </button>
-                </div>
+            <section id="screen-finish" class="screen" style="max-height: 100%; overflow: hidden;">
+                <!-- Content loaded dynamically from app.js based on 70% score threshold -->
             </section>
 
         </main>

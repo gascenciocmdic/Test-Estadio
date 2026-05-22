@@ -6,6 +6,10 @@ const videosData = [
     questions: [
       "¿Cuál es la principal enseñanza sobre el uso de celulares y pantallas que nos deja este video?",
       "¿Qué reflexión te genera este video respecto al valor de la comunicación cara a cara en la vida real?"
+    ],
+    keywords: [
+      ["pantalla", "celular", "telefono", "distra", "desconec", "real", "familia", "comunicacion", "tecnologia"],
+      ["cara", "real", "hablar", "conversar", "mirar", "escuchar", "presencial", "contacto", "personal", "perder"]
     ]
   },
   {
@@ -14,6 +18,10 @@ const videosData = [
     questions: [
       "¿Qué nos enseña este video sobre la forma en que juzgamos nuestra propia apariencia física?",
       "¿Cuál es la lección principal respecto a la autoestima y el amor propio que se transmite en esta historia?"
+    ],
+    keywords: [
+      ["espejo", "juzgar", "apariencia", "cuerpo", "fisico", "criticar", "defecto", "autoestima", "aceptacion"],
+      ["autoestima", "amor propio", "aceptar", "quererse", "valorar", "interior", "belleza", "confianza"]
     ]
   },
   {
@@ -22,6 +30,10 @@ const videosData = [
     questions: [
       "¿Qué enseñanza nos deja el video sobre las consecuencias emocionales de excluir a los demás?",
       "¿Cómo nos invita este video a actuar frente a las personas que se sienten solas o rechazadas?"
+    ],
+    keywords: [
+      ["excluir", "tristeza", "soledad", "dolor", "aisla", "rechazo", "exclusi", "sufrir", "empatia"],
+      ["incluir", "ayudar", "empatia", "integrar", "hablar", "acercar", "apoyar", "acompañar", "amable", "amigo"]
     ]
   },
   {
@@ -30,6 +42,10 @@ const videosData = [
     questions: [
       "¿Qué valiosa lección nos enseña este video sobre juzgar las acciones de las personas sin conocer toda la verdad?",
       "¿Cómo cambia nuestra perspectiva sobre el conflicto al darnos cuenta de quién era el verdadero dueño de las galletas?"
+    ],
+    keywords: [
+      ["juzgar", "verdad", "conocer", "error", "equivocar", "prejuicio", "prejuzgar", "calma", "saber", "hechos", "pensar"],
+      ["galleta", "dueño", "joven", "anciana", "bolso", "mismo", "mía", "suyo", "compartir", "generoso", "equivocada", "sorpresa"]
     ]
   },
   {
@@ -38,6 +54,10 @@ const videosData = [
     questions: [
       "¿Qué conocimientos importantes adquiriste sobre la manera en que se manifiesta físicamente el personaje de la ansiedad?",
       "¿Qué aprendiste en este video sobre cómo la ansiedad afecta los pensamientos y la tranquilidad de una persona?"
+    ],
+    keywords: [
+      ["monstruo", "grande", "pequeño", "crece", "pesadez", "presion", "nudo", "oscuro", "sombra", "dibujo", "animado"],
+      ["preocupacion", "miedo", "pensar", "tranquilidad", "control", "paraliza", "sobrepensar", "negativo", "futuro", "dormir"]
     ]
   },
   {
@@ -46,6 +66,10 @@ const videosData = [
     questions: [
       "¿Qué conocimientos clave obtuviste sobre si la ansiedad es una emoción común o anormal en los adolescentes?",
       "¿Cuáles son las estrategias o recomendaciones más importantes que se explican para manejar y controlar la ansiedad?"
+    ],
+    keywords: [
+      ["comun", "normal", "todos", "etapa", "frecuente", "adolescencia", "sentir", "natural"],
+      ["respirar", "hablar", "ejercicio", "ayuda", "profesional", "terapia", "meditar", "amigos", "apoyo", "escribir"]
     ]
   },
   {
@@ -54,6 +78,10 @@ const videosData = [
     questions: [
       "¿Qué conocimientos científicos importantes adquiriste sobre el trabajo de Nikola Tesla y sus inventos?",
       "¿Qué datos relevantes aprendiste sobre la rivalidad y la diferencia entre la corriente alterna de Tesla y la corriente continua de Edison?"
+    ],
+    keywords: [
+      ["alterna", "corriente", "bobina", "inalambrica", "energia", "electricidad", "motor", "tesla", "inventor"],
+      ["rival", "edison", "alterna", "continua", "guerra", "corrientes", "competencia", "diferencia", "distancia", "transmision"]
     ]
   },
   {
@@ -62,6 +90,10 @@ const videosData = [
     questions: [
       "¿Qué conocimientos astronómicos fundamentales sobre la teoría heliocéntrica de Copérnico se explican en el video?",
       "¿Qué aprendiste sobre el cambio que significó situar al Sol en el centro del sistema solar en lugar de la Tierra?"
+    ],
+    keywords: [
+      ["heliocentrica", "sol", "centro", "planetas", "girar", "orbita", "teoria", "copernico"],
+      ["tierra", "centro", "sol", "geocentrica", "cambio", "iglesia", "ciencia", "revolucion", "astronomia"]
     ]
   },
   {
@@ -70,6 +102,10 @@ const videosData = [
     questions: [
       "¿Qué leyes o principios científicos fundamentales formulados por Isaac Newton lograste comprender a través del video?",
       "¿Qué conocimientos importantes adquiriste sobre cómo actúa la fuerza de gravedad en la Tierra y en el universo?"
+    ],
+    keywords: [
+      ["gravedad", "leyes", "inercia", "accion", "reaccion", "movimiento", "fuerza", "newton"],
+      ["gravedad", "caer", "suelo", "atrae", "atraccion", "orbita", "planetas", "luna", "masa"]
     ]
   },
   {
@@ -78,6 +114,10 @@ const videosData = [
     questions: [
       "¿Qué conocimientos adquiriste sobre la función de filtración de la sangre que realizan los riñones?",
       "¿Qué aprendiste sobre el almacenamiento y la eliminación de desechos por medio del sistema urinario?"
+    ],
+    keywords: [
+      ["riñon", "riñones", "filtrar", "sangre", "toxinas", "desechos", "orina", "limpiar", "agua"],
+      ["vejiga", "orina", "almacenar", "eliminar", "expulsar", "uretra", "ureteres", "liquido"]
     ]
   },
   {
@@ -86,6 +126,10 @@ const videosData = [
     questions: [
       "¿Qué conocimientos clave adquiriste sobre los elementos necesarios (gases, agua, luz) para que ocurra la fotosíntesis?",
       "¿Qué aprendiste sobre la clorofila y su importancia en la producción de oxígeno y alimento de las plantas?"
+    ],
+    keywords: [
+      ["dioxido", "carbono", "co2", "agua", "luz", "solar", "sol", "oxigeno", "plantas"],
+      ["clorofila", "hojas", "verde", "absorber", "luz", "alimento", "glucosa", "energia", "oxigeno"]
     ]
   }
 ];
@@ -123,19 +167,23 @@ const readingData = {
   questions: [
     {
       id: "rq1",
-      label: "¿Cuál es el nombre del programa de inteligencia artificial que contrató Christopher para continuar interactuando con su familia?"
+      label: "¿Cuál es el nombre del programa de inteligencia artificial que contrató Christopher para continuar interactuando con su familia?",
+      keywords: ["beyond", "life"]
     },
     {
       id: "rq2",
-      label: "¿Cómo se llama la hija de Christopher que habla con su avatar en el cementerio?"
+      label: "¿Cómo se llama la hija de Christopher que habla con su avatar en el cementerio?",
+      keywords: ["galia"]
     },
     {
       id: "rq3",
-      label: "¿Qué secretos y verdades sobre el pasado de su familia descubre Galia en los registros?"
+      label: "¿Qué secretos y verdades sobre el pasado de su familia descubre Galia en los registros?",
+      keywords: ["muerte", "mama", "madre", "accidental", "relacion", "paralela", "amigo", "complicidad", "director", "ocultar", "pistas", "amante", "engaño", "infidelidad"]
     },
     {
       id: "rq4",
-      label: "¿En qué lugar termina internada Galia al final de la historia debido al daño que le causó el programa?"
+      label: "¿En qué lugar termina internada Galia al final de la historia debido al daño que le causó el programa?",
+      keywords: ["hospital", "psiquiatrico", "manicomio", "clinica", "sanatorio"]
     }
   ]
 };
@@ -255,24 +303,26 @@ function setupEventListeners() {
     updateUI();
   });
 
-  // Screen 6: Download PDF
-  const btnDownloadPdf = document.getElementById("btn-download-pdf");
-  btnDownloadPdf.addEventListener("click", () => {
-    triggerPdfDownload();
-  });
-
-  // Screen 6: Share on WhatsApp
-  const btnShareWhatsapp = document.getElementById("btn-share-whatsapp");
-  btnShareWhatsapp.addEventListener("click", () => {
-    triggerWhatsAppShare();
-  });
-
-  // Screen 6: Restart Test
-  const btnRestart = document.getElementById("btn-restart");
-  btnRestart.addEventListener("click", () => {
-    if (confirm("¿Estás seguro de que quieres borrar tu progreso y comenzar de nuevo?")) {
-      clearState();
-      updateUI();
+  // Screen 6: Actions via event delegation for dynamic buttons
+  document.addEventListener("click", (e) => {
+    const target = e.target;
+    
+    // Download PDF
+    if (target.closest("#btn-download-pdf")) {
+      triggerPdfDownload();
+    }
+    
+    // Share WhatsApp
+    if (target.closest("#btn-share-whatsapp")) {
+      triggerWhatsAppShare();
+    }
+    
+    // Restart Test
+    if (target.closest("#btn-restart")) {
+      if (confirm("¿Estás seguro de que quieres borrar tu progreso y comenzar de nuevo?")) {
+        clearState();
+        updateUI();
+      }
     }
   });
 }
@@ -407,8 +457,8 @@ function updateUI() {
       percentText.textContent = `100%`;
       progressFill.style.width = `100%`;
       
-      // Set custom message
-      document.getElementById("finish-user-msg").innerHTML = `¡Felicidades <strong>${state.userData.name}</strong>! Has completado con éxito todo el test.`;
+      // Render finish screen content dynamically
+      renderFinishScreen();
       break;
   }
   
@@ -684,4 +734,199 @@ function triggerWhatsAppShare() {
   const whatsappUrl = `https://api.whatsapp.com/send?text=${encodedText}`;
   
   window.open(whatsappUrl, "_blank");
+}
+
+// Helper to normalize text for grading
+function normalizeText(text) {
+  if (!text) return "";
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // remove accents/diacritics
+    .replace(/[^a-z0-9\s]/g, "")     // strip punctuation
+    .trim();
+}
+
+// Helper to escape HTML to prevent XSS injection
+function escapeHtml(text) {
+  if (!text) return "";
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+// Grade all answers
+function checkAnswers() {
+  let correctCount = 0;
+  let totalCount = 0;
+  const incorrectQuestions = [];
+
+  // Grade Video Questions
+  videosData.forEach((video, vIndex) => {
+    video.questions.forEach((qText, qIndex) => {
+      totalCount++;
+      const ansKey = `v_${vIndex}_q${qIndex}`;
+      const userAns = state.answers[ansKey] || "";
+      const kws = video.keywords[qIndex] || [];
+      
+      const normalizedAns = normalizeText(userAns);
+      const isCorrect = kws.some(kw => normalizedAns.includes(normalizeText(kw)));
+      
+      if (isCorrect) {
+        correctCount++;
+      } else {
+        incorrectQuestions.push({
+          source: `${video.label}`,
+          question: qText,
+          userAnswer: userAns,
+          expectedKeywords: kws
+        });
+      }
+    });
+  });
+
+  // Grade Reading Questions
+  readingData.questions.forEach((q, qIndex) => {
+    totalCount++;
+    const ansKey = `rq_${qIndex}`;
+    const userAns = state.answers[ansKey] || "";
+    const kws = q.keywords || [];
+    
+    const normalizedAns = normalizeText(userAns);
+    const isCorrect = kws.some(kw => normalizedAns.includes(normalizeText(kw)));
+    
+    if (isCorrect) {
+      correctCount++;
+    } else {
+      incorrectQuestions.push({
+        source: `Lectura Final`,
+        question: q.label,
+        userAnswer: userAns,
+        expectedKeywords: kws
+      });
+    }
+  });
+
+  const percentage = Math.round((correctCount / totalCount) * 100);
+
+  return {
+    correctCount,
+    totalCount,
+    percentage,
+    isPassed: percentage >= 70,
+    incorrectQuestions
+  };
+}
+
+// Render dynamic finish screen content
+function renderFinishScreen() {
+  const container = document.getElementById("screen-finish");
+  if (!container) return;
+
+  const results = checkAnswers();
+
+  if (results.isPassed) {
+    // PASS SCREEN (>= 70%)
+    container.innerHTML = `
+      <div class="card card-scrollable" style="text-align: center; justify-content: flex-start;">
+        <div class="success-icon-container">
+          <i data-lucide="award" class="gold-icon large-icon animate-pulse"></i>
+        </div>
+        
+        <h2 class="finish-title text-success">FELICITACIONES TE HAS GANADO LA ENTRADA!!!!</h2>
+        <p class="finish-desc">¡Excelente trabajo, <strong>${escapeHtml(state.userData.name)}</strong>! Lograste un puntaje de <strong>${results.percentage}%</strong> (${results.correctCount}/${results.totalCount} respuestas correctas) y cumples con el requisito mínimo del 70%.</p>
+        
+        <!-- Ticket Container -->
+        <div class="ticket-download-card">
+          <p style="font-size: 0.85rem; color: var(--color-gold); font-weight: 700; margin-bottom: 10px; text-transform: uppercase;">Tu Entrada Virtual</p>
+          <img src="Entrada-cato-colo-colo.jpg" class="ticket-image" alt="Entrada Cato vs Colo-Colo">
+          <div style="margin-top: 14px;">
+            <a href="Entrada-cato-colo-colo.jpg" download="Entrada-cato-colo-colo.jpg" class="btn btn-success btn-block" style="text-decoration: none;">
+              <i data-lucide="download"></i>
+              <span>DESCARGAR ENTRADA</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="action-steps-container">
+          <h3 class="steps-title">¿Qué debes hacer ahora?</h3>
+          <div class="step-item">
+            <span class="step-num">1</span>
+            <p>Descarga la entrada arriba utilizando el botón verde.</p>
+          </div>
+          <div class="step-item">
+            <span class="step-num">2</span>
+            <p>Descarga el PDF con el resumen de todas tus respuestas haciendo clic en "Descargar Resumen PDF".</p>
+          </div>
+          <div class="step-item">
+            <span class="step-num">3</span>
+            <p>Envía tu comprobante de respuestas por WhatsApp al organizador para validar tu participación.</p>
+          </div>
+        </div>
+
+        <div class="finish-buttons">
+          <button id="btn-download-pdf" class="btn btn-primary">
+            <i data-lucide="file-text"></i>
+            <span>Descargar Resumen PDF</span>
+          </button>
+          
+          <button id="btn-share-whatsapp" class="btn btn-whatsapp">
+            <i data-lucide="send"></i>
+            <span>Enviar por WhatsApp</span>
+          </button>
+        </div>
+
+        <button id="btn-restart" class="btn-restart-link">
+          <i data-lucide="rotate-ccw"></i>
+          <span>Comenzar de nuevo</span>
+        </button>
+      </div>
+    `;
+  } else {
+    // FAIL SCREEN (< 70%)
+    // Render list of incorrect questions
+    let incorrectItemsHtml = "";
+    results.incorrectQuestions.forEach(item => {
+      incorrectItemsHtml += `
+        <div class="incorrect-item">
+          <span class="incorrect-section">${escapeHtml(item.source)}</span>
+          <p class="incorrect-question"><strong>P:</strong> ${escapeHtml(item.question)}</p>
+          <p class="incorrect-answer"><strong>Tu respuesta:</strong> <span>"${escapeHtml(item.userAnswer || 'Sin respuesta')}"</span></p>
+        </div>
+      `;
+    });
+
+    container.innerHTML = `
+      <div class="card card-scrollable" style="text-align: center; justify-content: flex-start;">
+        <div class="fail-icon-container">
+          <i data-lucide="alert-triangle" class="red-icon animate-pulse"></i>
+        </div>
+        
+        <h2 class="finish-title text-fail">Lo siento tu puntaje fue ${results.percentage}%</h2>
+        <p class="finish-desc" style="margin-bottom: 16px;">Para alcanzarlo tienes que lograr un puntaje de <strong>70%</strong> (${results.correctCount}/${results.totalCount} correctas). Revisa abajo las preguntas que fallaste para prepararte mejor.</p>
+        
+        <div class="incorrect-list-container">
+          <h3>Preguntas por mejorar</h3>
+          <div class="incorrect-scroll-area">
+            ${incorrectItemsHtml}
+          </div>
+        </div>
+
+        <div class="finish-buttons">
+          <button id="btn-restart" class="btn btn-primary btn-block">
+            <i data-lucide="rotate-ccw"></i>
+            <span>Intentar de nuevo</span>
+          </button>
+        </div>
+      </div>
+    `;
+  }
+
+  // Refresh icons
+  if (window.lucide && typeof lucide.createIcons === "function") {
+    lucide.createIcons();
+  }
 }
