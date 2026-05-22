@@ -529,11 +529,11 @@ function triggerPdfDownload() {
   doc.setFont("Helvetica", "bold");
   doc.setFontSize(22);
   doc.setTextColor(255, 255, 255);
-  doc.text("TEST DE RESPUESTAS", margin, 18);
+  doc.text("TITO VA AL ESTADIO", margin, 18);
 
   doc.setFontSize(11);
   doc.setTextColor(204, 163, 83); // Gold
-  doc.text("POSTULACIÓN PARA LA ENTRADA AL ESTADIO (TEST)", margin, 26);
+  doc.text("RESPUESTAS DE LA POSTULACIÓN AL ESTADIO", margin, 26);
 
   // Participant details in header
   doc.setFontSize(10);
@@ -666,16 +666,16 @@ function triggerPdfDownload() {
   doc.setFont("Helvetica", "italic");
   doc.setFontSize(8);
   doc.setTextColor(150, 150, 150);
-  doc.text("Documento generado automáticamente por la plataforma web TEST - Entrada al Estadio.", margin, y);
+  doc.text("Documento generado automáticamente por la plataforma web TITO VA AL ESTADIO.", margin, y);
 
   // Trigger download
-  const filename = `TEST_Respuestas_${state.userData.name.replace(/\s+/g, "_")}.pdf`;
+  const filename = `TitoVaAlEstadio_Respuestas_${state.userData.name.replace(/\s+/g, "_")}.pdf`;
   doc.save(filename);
 }
 
 // Trigger WhatsApp message share
 function triggerWhatsAppShare() {
-  const textMsg = `¡Hola! He completado con éxito todo el TEST para ganarme la entrada al Estadio. Aquí adjunto mi PDF de respuestas.\n\n` +
+  const textMsg = `¡Hola! He completado con éxito todo el cuestionario de TITO VA AL ESTADIO. Aquí adjunto mi PDF de respuestas.\n\n` +
                  `*Participante:* ${state.userData.name}\n` +
                  `*Edad:* ${state.userData.age} años\n\n` +
                  `(Recuerda adjuntar el archivo PDF descargado desde tu carpeta de descargas).`;
